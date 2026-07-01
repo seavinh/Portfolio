@@ -32,7 +32,7 @@ export class App implements OnInit, AfterViewInit {
   projects = [
     {
       title: 'E-Commerce Platform',
-      description: 'A full-featured digital storefront with real-time inventory management,Project in school with classmate .',
+      description: 'A collaborative e-commerce website featuring product management, shopping cart functionality, and order processing, developed as a university team project.',
       techs: ['javascript','css','html'],
       demo: 'https://9-shop.vercel.app/shoes',
       github: 'https://github.com/seavinh/9-shop',
@@ -40,7 +40,7 @@ export class App implements OnInit, AfterViewInit {
     },
     {
       title: 'Inventory System',
-      description: 'This project demonstrates my skills in full-stack web development, database design, CRUD operations, authentication, and deploying web applications to a hosting environment.',
+      description: 'A web-based inventory management system for tracking products, managing stock, and monitoring sales efficiently.',
       techs: ['Angular', 'Node.js', 'MongoDB'],
       demo: 'https://stock-inventory-frontend-eight.vercel.app/',
       github: 'https://github.com/seavinh/stock-inventory-frontend',
@@ -48,7 +48,7 @@ export class App implements OnInit, AfterViewInit {
     },
     {
       title: 'Weather Forecast App',
-      description: 'A sleek productivity tool aiding teams in organizing tasks, matching milestones, and collaborating efficiently across diverse geographic locations.',
+      description: 'A mobile weather application that provides real-time weather updates and 7-day forecasts using API integration.',
       techs: ['flutter', 'dart', 'Laravel'],
       demo: 'https://weather-app-two-neon-76.vercel.app/',
       github: 'https://github.com/seavinh/Weather_app',
@@ -56,7 +56,7 @@ export class App implements OnInit, AfterViewInit {
     },
     {
       title: 'Car Garage Management System',
-      description: 'A sleek productivity tool aiding teams in organizing tasks, matching milestones, and collaborating efficiently across diverse geographic locations.',
+      description: 'A management system for handling vehicle records, service appointments, repairs, and customer information efficiently.',
       techs: ['Angular', 'Node.js', 'MongoDB'],
       demo: 'https://car-garage-ecru.vercel.app/',
       github: 'https://github.com/seavinh/CarGarage',
@@ -64,7 +64,7 @@ export class App implements OnInit, AfterViewInit {
     },
     {
       title: 'Football Booking App',
-      description: 'A sleek productivity tool aiding teams in organizing tasks, matching milestones, and collaborating efficiently across diverse geographic locations.',
+      description: 'A mobile application that allows users to book football fields, manage reservations, and view available time slots.',
       techs: ['flutter', 'dart', 'supabase'],
       demo: 'https://football-booking-app.vercel.app/#/login',
       github: 'https://github.com/seavinh/football-booking',
