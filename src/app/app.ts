@@ -33,41 +33,41 @@ export class App implements OnInit, AfterViewInit {
     {
       title: 'E-Commerce Platform',
       description: 'A full-featured digital storefront with real-time inventory management,Project in school with classmate .',
-      techs: ['javascript','css'],
+      techs: ['javascript','css','html'],
       demo: 'https://9-shop.vercel.app/shoes',
-      github: '#',
+      github: 'https://github.com/seavinh/9-shop',
       imageUrl: '/image/9shop.png'
     },
     {
       title: 'Inventory System',
       description: 'This project demonstrates my skills in full-stack web development, database design, CRUD operations, authentication, and deploying web applications to a hosting environment.',
-      techs: ['Angular', 'Node.js', 'MongoBb'],
+      techs: ['Angular', 'Node.js', 'MongoDB'],
       demo: 'https://stock-inventory-frontend-eight.vercel.app/',
-      github: '#',
+      github: 'https://github.com/seavinh/stock-inventory-frontend',
       imageUrl: '/image/Inventory.png'
     },
     {
       title: 'Weather Forecast App',
       description: 'A sleek productivity tool aiding teams in organizing tasks, matching milestones, and collaborating efficiently across diverse geographic locations.',
-      techs: ['Vue.js', 'Express', 'PostgreSQL', 'TailwindCSS'],
-      demo: '#',
-      github: '#',
+      techs: ['flutter', 'dart', 'Laravel'],
+      demo: 'https://weather-app-two-neon-76.vercel.app/',
+      github: 'https://github.com/seavinh/Weather_app',
       imageUrl: '/image/weahter.png'
     },
     {
       title: 'Car Garage Management System',
       description: 'A sleek productivity tool aiding teams in organizing tasks, matching milestones, and collaborating efficiently across diverse geographic locations.',
-      techs: ['Vue.js', 'Express', 'PostgreSQL', 'TailwindCSS'],
-      demo: '#',
-      github: '#',
+      techs: ['Angular', 'Node.js', 'MongoDB'],
+      demo: 'https://car-garage-ecru.vercel.app/',
+      github: 'https://github.com/seavinh/CarGarage',
       imageUrl: '/image/CarGarage.png'
     },
     {
       title: 'Football Booking App',
       description: 'A sleek productivity tool aiding teams in organizing tasks, matching milestones, and collaborating efficiently across diverse geographic locations.',
-      techs: ['Vue.js', 'Express', 'PostgreSQL', 'TailwindCSS'],
-      demo: '#',
-      github: '#',
+      techs: ['flutter', 'dart', 'supabase'],
+      demo: 'https://football-booking-app.vercel.app/#/login',
+      github: 'https://github.com/seavinh/football-booking',
       imageUrl: '/image/football-booking.png'
     }
   ];
