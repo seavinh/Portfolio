@@ -140,7 +140,7 @@
     padding-right: 1.5rem;
     /* ensures exact spacing matches the gap when duplicated */
     animation: scroll 25s linear infinite;
-    min-width: 100%;
+    flex-shrink: 0;
 }
 
 /* Pause animation on hover */
