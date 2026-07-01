@@ -1,0 +1,21 @@
+<header class="glass" [class.scrolled]="isScrolled">
+    <div class="container nav-container">
+        <a href="#" class="logo gradient-text">Portfolio.</a>
+
+        <button class="menu-toggle" (click)="onToggleMenu()" aria-label="Toggle menu">
+            <span class="material-symbols-rounded">{{ isMenuOpen ? 'close' : 'menu' }}</span>
+        </button>
+
+        <nav [class.open]="isMenuOpen">
+            <ul class="nav-links">
+                <li><a href="#hero" (click)="closeMenu()">Home</a></li>
+                <li><a href="#about" (click)="closeMenu()">About</a></li>
+                <li><a href="#projects" (click)="closeMenu()">Projects</a></li>
+                <li><a href="#contact" (click)="closeMenu()">Contact</a></li>
+                <li>
+                    <a href="#contact" class="btn btn-primary" (click)="closeMenu()">Let's Talk</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>

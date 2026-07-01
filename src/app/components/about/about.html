@@ -1,0 +1,69 @@
+<section id="about" class="about section-padding">
+    <div class="container">
+        <h2 class="section-title reveal">About <span class="gradient-text">Me</span></h2>
+        <div class="about-grid">
+            <div class="about-text glass reveal">
+                <p>I am a results-focused web developer who builds clean, accessible applications with real user value.
+                    I combine design awareness with modern web technologies to deliver reliable, maintainable solutions.</p>
+                <p>From front-end interfaces to full-stack workflows, I work to turn ideas into products that look great,
+                    perform well, and make a strong impact.</p>
+
+                <div class="stats">
+                    <div class="stat-item">
+                        <h3>0+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>5+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills glass reveal">
+                <h3>Technical Skills</h3>
+                <div class="skills-grid">
+                    @for (skill of skills; track skill) {
+                    <div class="skill-tag">
+                        <span class="material-symbols-rounded">check_circle</span>
+                        {{ skill }}
+                    </div>
+                    }
+                </div>
+
+                <div class="design-skills">
+                    <h3 class="mt-4">Design Skills</h3>
+                    <div class="skills-grid design-grid">
+                        @for (skill of designSkills; track skill) {
+                        <div class="skill-tag">
+                            <span class="material-symbols-rounded">check_circle</span>
+                            {{ skill }}
+                        </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="marquee-wrapper reveal glass mt-4">
+            <div class="marquee-container">
+                <div class="marquee-content">
+                    @for (icon of techIcons; track icon.name) {
+                    <div class="tech-icon-item">
+                        <img [src]="icon.url" [alt]="icon.name">
+                        <span>{{ icon.name }}</span>
+                    </div>
+                    }
+                </div>
+                <!-- Duplicate for infinite scroll -->
+                <div class="marquee-content" aria-hidden="true">
+                    @for (icon of techIcons; track icon.name) {
+                    <div class="tech-icon-item">
+                        <img [src]="icon.url" [alt]="icon.name">
+                        <span>{{ icon.name }}</span>
+                    </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
