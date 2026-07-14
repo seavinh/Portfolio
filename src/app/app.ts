@@ -50,7 +50,7 @@ export class App implements OnInit, AfterViewInit {
       title: 'Weather Forecast App',
       description: 'A mobile weather application that provides real-time weather updates and 7-day forecasts using API integration.',
       techs: ['flutter', 'dart', 'Laravel'],
-      demo: 'https://weather-app-two-neon-76.vercel.app/',
+      demo: 'https://climate.seavinh.com',
       github: 'https://github.com/seavinh/Weather_app',
       imageUrl: '/image/weahter.png'
     },
@@ -58,7 +58,7 @@ export class App implements OnInit, AfterViewInit {
       title: 'Car Garage Management System',
       description: 'A management system for handling vehicle records, service appointments, repairs, and customer information efficiently.',
       techs: ['Angular', 'Node.js', 'MongoDB'],
-      demo: 'https://car-garage-ecru.vercel.app/',
+      demo: 'https://cargarage.seavinh.com',
       github: 'https://github.com/seavinh/CarGarage',
       imageUrl: '/image/CarGarage.png'
     },
@@ -68,6 +68,14 @@ export class App implements OnInit, AfterViewInit {
       techs: ['flutter', 'dart', 'supabase'],
       demo: 'https://football-booking-app.vercel.app/#/login',
       github: 'https://github.com/seavinh/football-booking',
+      imageUrl: '/image/football-booking.png'
+    },
+    {
+      title: 'Gym Management System',
+      description: 'A management system for handling gym members, trainers, workout plans, and fitness tracking.',
+      techs: ['Laravel', 'Angular', 'MySql'],
+      demo: 'https://gym.seavinh.com',
+      github: 'https://github.com/seavinh/gym',
       imageUrl: '/image/football-booking.png'
     }
   ];
