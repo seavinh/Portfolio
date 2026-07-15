@@ -20,7 +20,7 @@ export class App implements OnInit, AfterViewInit {
 
   skills = [
     'HTML5 & CSS3', 'JavaScript (ES6+)', 'TypeScript',
-    'Angular', 'React', 'Node.js',
+    'Angular', 'Node.js',
     'TailwindCSS', 'Supabase', 'Dart', 'Flutter', 'Laravel',
     'Figma', 'Git'
   ];
@@ -42,7 +42,7 @@ export class App implements OnInit, AfterViewInit {
       title: 'Inventory System',
       description: 'A web-based inventory management system for tracking products, managing stock, and monitoring sales efficiently.',
       techs: ['Angular', 'Node.js', 'MongoDB'],
-      demo: 'https://stock-inventory-frontend-eight.vercel.app/',
+      demo: 'https://inventorypro.seavinh.com',
       github: 'https://github.com/seavinh/stock-inventory-frontend',
       imageUrl: '/image/Inventory.png'
     },
@@ -66,7 +66,7 @@ export class App implements OnInit, AfterViewInit {
       title: 'Football Booking App',
       description: 'A mobile application that allows users to book football fields, manage reservations, and view available time slots.',
       techs: ['flutter', 'dart', 'supabase'],
-      demo: 'https://football-booking-app.vercel.app/#/login',
+      demo: 'https://myfootball.seavinh.com',
       github: 'https://github.com/seavinh/football-booking',
       imageUrl: '/image/football-booking.png'
     },
@@ -76,7 +76,7 @@ export class App implements OnInit, AfterViewInit {
       techs: ['Laravel', 'Angular', 'MySql'],
       demo: 'https://gym.seavinh.com',
       github: 'https://github.com/seavinh/gym',
-      imageUrl: '/image/football-booking.png'
+      imageUrl: '/image/gym.png'
     }
   ];
 
